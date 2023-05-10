@@ -1,0 +1,422 @@
+
+body{
+    margin: 0px;
+}
+.linha{
+    height: 10px;
+    background-color: #77a786
+}
+.cabeçalho{
+    max-width: 1340px;
+    margin-right: 20px;
+    margin-left: 20px;
+    align-items: center;
+}
+form input{
+    padding-left: 10px;
+}
+.conteiner--area{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    padding-right: 20px;
+    padding-left: 10px;
+}
+.conteiner-banner{
+    margin-left: 85px;
+}
+.conteiner-banner span{
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    letter-spacing: 5px;
+}
+.conteiner-esquerda img{
+    width: 139px;
+    height: 139px;
+    margin-left: 10px;
+}
+.conteiner-direita{
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+form{
+    display: flex;
+    height: 36px;
+}
+.lupa{
+    margin-left: -45px;
+    background-color: transparent;
+    border: 0px solid transparent;
+    cursor: pointer;
+}
+button img{
+    height: 17px;
+    width: 17px;
+    margin-bottom: -3px;
+}
+.botao-menu{
+    margin-left: 50px;
+}
+.botao-menu img{
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    margin-top: 3px;
+}
+.section-banner{
+    background-image: url(../images/catálogo.png);
+    background-position: center;
+    background-size: cover;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.conteiner-banner h1{
+    font-family: 'cardo';
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 70px;
+    margin: 0;
+    margin-bottom: 5px;
+    padding-bottom: 2px;
+}
+.banner-imagens img{
+    width: 148px;
+    height: 148px;
+    border: 6px solid #117050;
+    border-radius: 50%;
+    margin-top: 60px;
+    margin-right: 40px;
+}
+
+/* Parte da seção 1*/
+
+.section-1{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+}
+.section-1--conteudo{
+    padding: 80px;
+}
+.section-1--conteudo h2{
+    font-weight: bold;
+    line-height: 45px;
+    margin: 20px 0;
+    font-size: 35px;
+    font-family: 'Oswald', sans-serif;
+}
+.section-1--conteudo .frase{
+    margin-bottom: 32px;
+}
+.section-1--conteudo .texto {
+    margin-bottom: 50px;
+    line-height: 25px;
+}
+.section-1--conteudo a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #000;
+    border: 2px solid #333;
+    border-radius: 3px;
+}
+.section-1--conteudo a:hover{
+    background-color: #333;
+    color: #fff;
+}
+.section-1--imagem{
+    height: 710px;
+    background-image: url(../images/Produtos.png);
+    background-size: cover;
+    background-position: center;
+}
+
+/* Parte da Seção 2 */
+
+.section-2{
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+}
+.section-2--conteudo{
+    padding: 80px 80px 30px 80px;
+  
+}
+.section-2--conteudo h2{
+    font-weight: bold;
+    line-height: 45px;
+    margin: 20px 0;
+    font-size: 35px;
+    font-family: 'Oswald', sans-serif;
+}
+.section-2--conteudo .frase{
+    margin-bottom: 32px;
+}
+.section-2--conteudo .texto {
+    margin-bottom: 50px;
+    line-height: 25px;
+}
+.section-2--conteudo a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #000;
+    border: 2px solid #333;
+    border-radius: 3px;
+}
+.section-2--conteudo a:hover{
+    background-color: #333;
+    color: #fff;
+}
+.section-2--conteudo-2 {
+    margin-left: -80px;
+    margin-right: -81px;
+    padding-top: 27px;
+}
+.section-2--imagem{
+    height:710px;
+    background-image: url(../images/Intensoo.png);
+    background-size: cover;
+    background-position: center;
+}
+.section-2--imagem-2{
+    height:250px;
+    background-image: url(../images/mulher-passando-produto-em-seus-pes.webp);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+/* Parte 3 */
+
+.section-3{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.section-3--conteudo{
+padding: 80px;
+}
+.section-3--conteudo h2{
+font-weight: bold;
+line-height: 45px;
+margin: 20px 0;
+font-size: 35px;
+font-family: 'Oswald', sans-serif;
+}
+.section-3--conteudo .frase{
+margin-bottom: 32px;
+}
+.section-3--conteudo .texto {
+margin-bottom: 50px;
+line-height: 25px;
+}
+.section-3--conteudo a{
+display: inline-block;
+text-decoration: none;
+padding: 10px;
+padding-left: 30px;
+padding-right: 30px;
+color: #000;
+border: 2px solid #333;
+border-radius: 3px;
+}
+.section-3--conteudo a:hover{
+background-color: #333;
+color: #fff;
+}
+.section-3--imagem{
+height: 710px;
+background-image: url(../images/Perfumes.png);
+background-size: cover;
+background-position: center;
+}
+/* Responsividade */
+@media (min-width: 769px) and (max-width: 1140px){
+    .section-banner{
+        padding-left: 20px;
+        padding-right: 20px; 
+    }
+    .conteiner-banner {
+        margin-left: 20px;
+    }
+    .conteiner-banner h1 {
+        font-size: 45px;
+    }
+    .conteiner-banner span {
+        font-size: 21px;
+    }
+    .banner-imagens img {
+        width: 100px;
+        height: 100px;
+        margin-top: 67px;
+        margin-right: 27px;
+    }
+    .section-1--conteudo {
+        padding: 45px;
+    }
+    .section-2--conteudo {
+        padding: 80px 45px 30px 45px;
+    }
+    .section-2--conteudo-2 {
+        margin-left: -45px;
+        margin-bottom: -116px;
+        margin-right: -81px;
+        padding-top: 27px;
+    }
+    .section-3--conteudo {
+        padding: 45px;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 768px){
+    
+    .cabeçalho{
+        margin-right: -3px;
+        margin-left: -14px;
+    }
+    .conteiner-esquerda img {
+        width: 120px;
+        height: 120px;
+    }
+    .section-banner{
+        background-color: #77a786;
+        background-image: none;
+        padding-left: 20px;
+        padding-right: 20px; 
+    }
+    .conteiner-banner {
+        margin-left: 20px;
+        text-align: center;
+    }
+    .conteiner-banner h1 {
+        text-align: center;
+        font-size: 35px;
+        margin-top: -49px;
+    }
+    .conteiner-banner span {
+        font-size: 21px;
+    }
+    .banner-imagens img {
+        width: 80px;
+        height: 80px;
+        margin-top: 31px;
+        margin-bottom: -43px;
+        margin-right: 27px;
+    }
+    .section-1{
+        grid-template-columns: 1fr;
+        height: 945px;
+    }
+    .section-1--conteudo {
+        padding: 40px;
+    }
+    .section-1--conteudo a {
+        align-items: center;
+    }
+    .section-1--imagem {
+        height: 440px;
+        background-image: url(../images/Verdinho2.png);
+    }
+    .section-2{
+        grid-template-columns: 1fr;
+    }
+    .section-2--conteudo {
+        padding: 40px;
+    }
+    .section-2--conteudo a {
+    margin-bottom: 50px;
+    }
+    .section-2--imagem{
+        display: none;
+    }
+    .section-2--conteudo-2 {
+        margin-left: -45px;
+        margin-bottom: -116px;
+        margin-right: -81px;
+        padding-top: 27px;
+        min-width: 426px;
+        max-width: 426px;
+    }
+    .section-3{
+        grid-template-columns: 1fr;
+    }
+    .section-3--conteudo {
+        margin-top: 40px;
+        padding: 40px;
+    }
+}
+@media (max-width: 425px){
+    .cabeçalho{
+        padding-left: 20px;
+        padding-right: 20px; 
+    }
+    .cabeçalho form input{
+        max-width: 80px;
+    }
+    .header-button-menu {
+        margin-left: 20px;
+    }
+    .conteiner-banner h1{
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .area-1--content h2{
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .area-2--content h2{
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .area-3--content h2{
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .area-4--content h2{
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .banner-images img {
+        width: 70px;
+        height: 70px;
+        border: 3px solid #117050;
+        border-radius: 50%;
+        margin-top: 60px;
+        margin-right: 10px;
+    }
+    .area-1{
+        grid-template-columns: 1fr;
+    }
+    .area-1 .area-1--content{
+        padding: 40px;
+    }
+    .area-2{
+        grid-template-columns: 1fr;
+    }
+    .area-2 .area-2--content{
+        padding: 40px;
+    }
+    .area-3{
+        grid-template-columns: 1fr;
+    }
+    .area-3 .area-3--content{
+        padding: 40px;
+    }
+    .area-4{
+        grid-template-columns: 1fr;
+    }
+    .area-4 .area-4--content{
+        padding: 40px;
+    }
+    .area-5{
+        height: 200px;
+    }
+    footer{
+        font-size: 12px;
+        padding: 40px 20px;
+    }
+}
