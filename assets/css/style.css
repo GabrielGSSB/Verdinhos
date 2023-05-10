@@ -351,72 +351,77 @@ background-position: center;
 }
 @media (max-width: 425px){
     .cabeçalho{
+        margin-right: -3px;
+        margin-left: -14px;
+    }
+    .conteiner-esquerda img {
+        width: 120px;
+        height: 120px;
+    }
+    .section-banner{
+        background-color: #77a786;
+        background-image: none;
         padding-left: 20px;
         padding-right: 20px; 
     }
-    .cabeçalho form input{
-        max-width: 80px;
-    }
-    .header-button-menu {
+    .conteiner-banner {
         margin-left: 20px;
+        text-align: center;
     }
-    .conteiner-banner h1{
-        font-size: 50px;
-        line-height: 60px;
+    .conteiner-banner h1 {
+        text-align: center;
+        font-size: 35px;
+        margin-top: -49px;
     }
-    .area-1--content h2{
-        font-size: 20px;
-        line-height: 25px;
+    .conteiner-banner span {
+        font-size: 21px;
     }
-    .area-2--content h2{
-        font-size: 20px;
-        line-height: 25px;
+    .banner-imagens img {
+        width: 80px;
+        height: 80px;
+        margin-top: 31px;
+        margin-bottom: -43px;
+        margin-right: 27px;
     }
-    .area-3--content h2{
-        font-size: 20px;
-        line-height: 25px;
-    }
-    .area-4--content h2{
-        font-size: 20px;
-        line-height: 25px;
-    }
-    .banner-images img {
-        width: 70px;
-        height: 70px;
-        border: 3px solid #117050;
-        border-radius: 50%;
-        margin-top: 60px;
-        margin-right: 10px;
-    }
-    .area-1{
+    .section-1{
         grid-template-columns: 1fr;
+        height: 945px;
     }
-    .area-1 .area-1--content{
+    .section-1--conteudo {
         padding: 40px;
     }
-    .area-2{
+    .section-1--conteudo a {
+        align-items: center;
+    }
+    .section-1--imagem {
+        height: 440px;
+        background-image: url(../images/Verdinho2.png);
+    }
+    .section-2{
         grid-template-columns: 1fr;
     }
-    .area-2 .area-2--content{
+    .section-2--conteudo {
         padding: 40px;
     }
-    .area-3{
+    .section-2--conteudo a {
+    margin-bottom: 50px;
+    }
+    .section-2--imagem{
+        display: none;
+    }
+    .section-2--conteudo-2 {
+        margin-left: -45px;
+        margin-bottom: -116px;
+        margin-right: -81px;
+        padding-top: 27px;
+        min-width: 426px;
+        max-width: 426px;
+    }
+    .section-3{
         grid-template-columns: 1fr;
     }
-    .area-3 .area-3--content{
+    .section-3--conteudo {
+        margin-top: 40px;
         padding: 40px;
-    }
-    .area-4{
-        grid-template-columns: 1fr;
-    }
-    .area-4 .area-4--content{
-        padding: 40px;
-    }
-    .area-5{
-        height: 200px;
-    }
-    footer{
-        font-size: 12px;
-        padding: 40px 20px;
     }
 }
